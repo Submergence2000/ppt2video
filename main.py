@@ -28,3 +28,4 @@ if __name__ == "__main__":
         cov_ppt((os.getcwd()+'\\ppt\\'+ppt_src), os.getcwd()+'\\video\\'+ ppt_src[:-5] + '.mp4', resol)
     end_time = time.time()
     print('整个转换过程花了: ' + str(end_time -start_time) + 's呢')
+    input("按任意键退出……")
