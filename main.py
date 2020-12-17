@@ -10,7 +10,7 @@ def cov_ppt(src, dst, resol):
         time.sleep(1)
         try:
             os.rename(dst,dst)
-            print(src+' has been successfully converted!')
+            print(src+' 已经转换成功啦！')
             break
         except Exception:
             pass
@@ -18,13 +18,13 @@ def cov_ppt(src, dst, resol):
     return
 
 if __name__ == "__main__":
-    print("Please input the resolution you want for the videoes")
+    print("请输入你想要的输出视频分辨率")
     resol = ""
     while resol not in [480, 720, 1080 ,2160]:
-        resol = int(input("You can only choose from [480, 720, 1080, 2160] as the output resolution: "))
+        resol = int(input("你只能从 [480, 720, 1080, 2160] 这几个分辨率中选哦: "))
     ppt_srcs = files= os.listdir('ppt\\')
     start_time = time.time()
     for ppt_src in ppt_srcs:
         cov_ppt((os.getcwd()+'\\ppt\\'+ppt_src), os.getcwd()+'\\video\\'+ ppt_src[:-5] + '.mp4', resol)
     end_time = time.time()
-    print('total cost: ' + str(end_time -start_time) + 's')
+    print('整个转换过程花了: ' + str(end_time -start_time) + 's呢')
