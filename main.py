@@ -23,6 +23,7 @@ if __name__ == "__main__":
     while resol not in [480, 720, 1080 ,2160]:
         resol = int(input("你只能从 [480, 720, 1080, 2160] 这几个分辨率中选哦: "))
     ppt_srcs = files= os.listdir('ppt\\')
+    print("开始转换啦!")
     start_time = time.time()
     for ppt_src in ppt_srcs:
         cov_ppt((os.getcwd()+'\\ppt\\'+ppt_src), os.getcwd()+'\\video\\'+ ppt_src[:-5] + '.mp4', resol)
