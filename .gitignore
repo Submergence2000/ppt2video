@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 *.pptx
 *.mp4
+.vscode/settings.json
