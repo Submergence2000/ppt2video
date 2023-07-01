@@ -1,31 +1,24 @@
-# ppt2video
-将PPT演示文稿转为视频以便于2倍速高效复习
+# ppt2video - Enhance Your Study Efficiency with High-Speed Revision
 
+Now you can convert your PowerPoint presentations into videos, allowing you to review the content at twice the speed for maximum productivity.
 
+## Requirements:
 
-## 使用条件：
+- PPT files must be in the pptx format and have unencrypted narration.
+- Compatible with Windows 10 and Office versions higher than 2010.
 
-**PPT为pptx格式且带有讲解未加密，操作系统为win10，office版本高于2010**
+## How to Use:
 
+1. Organize all the PPT files you wish to convert into the designated "ppt" folder.
+2. Launch the "main.exe" program and follow the instructions to specify the desired resolution.
+3. The resulting videos will be automatically saved in the convenient "video" folder.
 
+## Future Possibilities:
 
-## 使用方法：
+1. Introduce multi-threading capabilities to accelerate further the conversion process (currently, even the powerful 8550u integrated graphics and CPU are not fully utilized).
+2. Explore alternative methods for audio extraction from PPT files, enabling direct integration with video, and eliminating the need for PowerPoint backend calls.
+3. Develop a user-friendly graphical interface (GUI) to enhance the overall experience (please note that GUI development is not currently supported).
 
-1. 将所有你想转换的PPT文件放在ppt文件夹中。
+## Packaged Version Links:
 
-2. 运行程序main.exe，按照提示输入分辨率。
-3. 输出的视频会自动放入video文件夹中。
-
-
-
-## 未来可能会做的：
-
-1. 开多线程加快速度（现在8550u核显和cpu是都没有跑满的）？
-2. 改变后台调用powerpoint的方法，转为对ppt的音频进行提取直接合成视频？
-3. 增加GUI界面？（这个我不会诶）
-
-
-
-## 打包版本链接：
-
-腾讯微云：https://share.weiyun.com/DaAoAJSZ
+Tencent Weiyun: [https://share.weiyun.com/DaAoAJSZ](https://share.weiyun.com/DaAoAJSZ)
